@@ -1,0 +1,42 @@
+body {
+    background: #282828;
+    margin: 0;
+    position: relative;
+}
+
+#file {
+    bottom: 50px;
+    color: white;
+    display: block;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+}
+
+#canvas {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#list {
+    list-style-type: none;
+    margin-top: 100vh;
+    position: relative;
+    width: 30px;
+    z-index: 10;
+}
+
+#list .way-item {
+    text-align: center;
+}
+
+#list .way-item:hover {
+    background: #3C3C3C;
+}
+
+#list .way-item a {
+    text-decoration: none;
+}
