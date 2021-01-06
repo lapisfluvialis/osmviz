@@ -84,7 +84,7 @@ const createJson = way => {
         way2.push({
             position: {
                 x: way[i].x - way[0].x,
-                y: way[i].y - way[0].y,
+                y: way[0].y - way[i].y,
                 z: 0,
             }
         });
