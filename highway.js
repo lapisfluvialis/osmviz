@@ -82,9 +82,11 @@ const createJson = way => {
     const way2 = [];
     for (let i = 0; i < way.length; i++) {
         way2.push({
-            x: way[i].x - way[0].x,
-            y: way[i].y - way[0].y,
-            z: 0,
+            position: {
+                x: way[i].x - way[0].x,
+                y: way[i].y - way[0].y,
+                z: 0,
+            }
         });
     }
 
